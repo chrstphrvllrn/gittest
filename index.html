@@ -1,0 +1,145 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+   <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxRq2d5703EdO_1MHRkcRZQqq-JUNOH94">  </script> -->
+    <!-- https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script> 
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+ <style>
+ .div{
+     position:absoluate;
+     height: 250px;
+     width: 250px;
+     cursor: pointer;
+     left: -50%;
+     top: -50%;
+    background: red;
+ }
+ #map {
+        position:absolute;
+        height: 250px;
+        width: 250px;
+        left: 1080px;
+        top: 370px;
+       /* left:50%;
+        margin-left: -125px;*/
+       }
+ body{
+
+     font-family: 'Roboto';font-size: 22px;
+ }
+
+
+ /*****************weatheupdate**************/
+ #weatherupdate{
+     position: absolute;
+     left: 10px;
+     top:405px;
+ }
+ #icon{
+     position: absolute;
+     top:15px;
+     right: 0px;
+ }
+ #weather{
+    position: absolute;
+    font-size:12pt;
+    top:65px;
+    right: 0px;
+    color:darkred;
+    height: 25px;
+    width: 150px;
+    text-align: right;
+    font-family: 'Anton';
+ }
+ #tempc{
+    
+     font-size:40pt;
+     color:darkred;
+     font-family: 'Anton';
+ }
+ #feelslikec{
+    
+     font-size:12pt;
+     color:darkslategrey;
+ }
+ #locationfull{
+    
+    font-size:12pt;
+    color:darkslategrey;
+ }
+ #observationtime{
+   
+    font-size:12pt;
+    color:darkslategrey;
+ }
+ #humidity{
+   
+    font-size:12pt;
+    color:darkslategrey;
+ }
+#longitude{
+    
+    font-size:12pt;
+    color:darkslategrey;
+}
+#latitude{
+   
+    font-size:12pt;
+    color:darkslategrey;
+}
+#wind{
+ 
+    font-size:12pt;
+    color:darkslategrey;
+}
+#currencyexhangerate1{
+    position:absolute;
+    height: 90px;
+    width: 322px;
+    left: 0px;
+    top: 120px;
+    color:darkred;
+}
+ </style>
+</head>
+<body>
+    <div id="divname0" class="div"></div>
+    <div id="divname1"></div>
+    <div id="divname2"></div>
+
+    <div id="divname3"></div>
+    <div id="divname4"></div>
+    <div id="divname5"></div>
+    <div id="currencyexhangerate1"></div>
+
+    <div id="weatherupdate">
+            <div id="observationtime"></div>
+            <div id="icon"></div>
+            <div id="weather"></div> 
+            <div id="tempc"></div>
+            <div id="feelslikec"></div>
+            <div id="locationfull"></div>
+            
+           
+            <div id="humidity"></div>
+            <div id="longitude"></div>
+            <div id="latitude"></div>
+            <div id="wind"></div>
+    </div>
+  
+
+    <div id="map"></div>
+   <!-- <div id="js"></div> -->
+
+</body>
+<script src="user.js"></script>
+ 
+
+</html>
